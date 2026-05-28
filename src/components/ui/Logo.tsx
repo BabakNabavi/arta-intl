@@ -71,7 +71,7 @@ export function Logo({ locale, variant = "dark", className = "" }: LogoProps) {
         </span>
       </span>
 
-      { 
+      { /*
       <Image
         src={isLight ? "/logo/arta-logo-light.svg" : "/logo/arta-logo.svg"}
         alt="Arta Tejarat International Apadana"
@@ -79,7 +79,7 @@ export function Logo({ locale, variant = "dark", className = "" }: LogoProps) {
         height={40}
         priority
       />
-      }
+      */}
     </Link>
   );
 }
