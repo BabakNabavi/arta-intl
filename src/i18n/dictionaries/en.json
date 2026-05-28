@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "locale": "en",
+    "siteName": "Arta Tejarat International Apadana",
+    "shortName": "Arta Tejarat"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "cta": "Start a Conversation",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "brand": {
+    "name": "ARTA TEJARAT",
+    "tagline": "International Trade, Delivered with Confidence"
+  },
+  "home": {
+    "seo": {
+      "title": "Arta Tejarat — International Trading Company in Iran | Import & Export",
+      "description": "Arta Tejarat International Apadana is a Tehran-based international trading company specializing in import, export, sourcing and trade facilitation. Building reliable global commerce for B2B partners.",
+      "keywords": "International trading company Iran, Import export Iran, Arta Tejarat, International commerce, Global trade company"
+    },
+    "hero": {
+      "eyelet": "Tehran · Worldwide Trade",
+      "title": "Connecting Iranian enterprise to global markets",
+      "subtitle": "Arta Tejarat International Apadana is an international trading house built on reliability, transparency and execution — moving goods and value across borders for businesses that expect more.",
+      "ctaPrimary": "Explore Our Services",
+      "ctaSecondary": "Talk to Our Team",
+      "trustNote": "Registered & operating internationally · Reg. No. 659891"
+    },
+    "intro": {
+      "eyelet": "Who We Are",
+      "title": "A trading partner engineered for trust",
+      "body": "We exist to make international trade simpler, safer and more profitable for our partners. From sourcing the right supplier to clearing the final shipment, Arta Tejarat manages the full commercial journey with the discipline of a global enterprise and the agility of a dedicated team.",
+      "highlights": [
+        { "title": "End-to-end execution", "text": "Sourcing, negotiation, logistics and documentation handled under one accountable roof." },
+        { "title": "Borderless network", "text": "Trusted suppliers, manufacturers and partners across multiple continents." },
+        { "title": "Commercial integrity", "text": "Transparent terms and rigorous compliance on every transaction." }
+      ]
+    },
+    "services": {
+      "eyelet": "What We Do",
+      "title": "Comprehensive trade services",
+      "subtitle": "A complete commercial capability — from first inquiry to final delivery.",
+      "viewAll": "View all services"
+    },
+    "why": {
+      "eyelet": "Why Arta Tejarat",
+      "title": "The advantages that move business forward",
+      "items": [
+        { "title": "Proven Reliability", "text": "We honour commitments, timelines and quality — the foundation of long-term partnership." },
+        { "title": "Global Reach", "text": "An established network spanning manufacturers, buyers and logistics partners worldwide." },
+        { "title": "Full Transparency", "text": "Clear pricing, clear documentation, clear communication at every stage." },
+        { "title": "Sector Expertise", "text": "Deep knowledge across food products, commercial goods and petrochemical trade." },
+        { "title": "Compliant Operations", "text": "Trade conducted to international standards and regulatory best practice." },
+        { "title": "Dedicated Support", "text": "A responsive team that treats your shipment as if it were our own." }
+      ]
+    },
+    "vision": {
+      "eyelet": "Our Vision",
+      "title": "Trade without borders, built on confidence",
+      "body": "We envision a world where geography is no barrier to opportunity. Arta Tejarat is committed to becoming a reference point for international trade originating from Iran — recognised for integrity, precision and the quality of the partnerships we build.",
+      "points": [
+        "Expanding access to international markets for our partners",
+        "Setting a standard for transparency in regional trade",
+        "Building supply chains that are resilient and dependable"
+      ]
+    },
+    "stats": {
+      "eyelet": "By the Numbers",
+      "title": "Scale you can rely on",
+      "items": [
+        { "value": "20+", "label": "Trade destinations served" },
+        { "value": "500+", "label": "Shipments coordinated" },
+        { "value": "98%", "label": "On-time delivery commitment" },
+        { "value": "100%", "label": "Compliance-first transactions" }
+      ],
+      "disclaimer": "Indicative figures representing our operational ambition and capacity."
+    },
+    "cta": {
+      "title": "Let’s build your next international deal",
+      "subtitle": "Whether you are importing, exporting or sourcing, our team is ready to map the most efficient route to your goods and your goals.",
+      "button": "Contact Arta Tejarat"
+    },
+    "contactPreview": {
+      "eyelet": "Get in Touch",
+      "title": "We respond like the deal depends on it",
+      "body": "Reach our team directly through WhatsApp or Instagram, or send a detailed inquiry through our contact page.",
+      "button": "Go to Contact"
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "About Arta Tejarat — International Trading House in Tehran, Iran",
+      "description": "Learn about Arta Tejarat International Apadana: our story, mission, vision and values as an international import, export and trade facilitation company based in Tehran.",
+      "keywords": "About Arta Tejarat, international trade company Iran, import export Tehran, global trade partner"
+    },
+    "hero": {
+      "eyelet": "About Us",
+      "title": "An international trading house with a clear purpose",
+      "subtitle": "Arta Tejarat International Apadana was founded to bridge Iranian enterprise with global markets — combining commercial expertise, an international network and uncompromising integrity."
+    },
+    "story": {
+      "eyelet": "Our Story",
+      "title": "Built to make global trade dependable",
+      "paragraphs": [
+        "Arta Tejarat International Apadana operates at the intersection of opportunity and execution. We were established to give businesses a trade partner they can trust completely — one that understands the realities of international commerce and delivers results without surprises.",
+        "From our base in Tehran, we coordinate import, export and sourcing operations that connect local enterprise with suppliers and buyers around the world. Every engagement is guided by the same principle: do it properly, and do it transparently.",
+        "Today, Arta Tejarat is recognised for the quality of its relationships and the reliability of its execution — across food products, commercial goods and selected petrochemical trade."
+      ]
+    },
+    "mission": {
+      "label": "Our Mission",
+      "text": "To make international trade simpler, safer and more profitable for our partners — by managing the full commercial journey with precision, transparency and care."
+    },
+    "visionBlock": {
+      "label": "Our Vision",
+      "text": "To become a leading reference for international trade originating from Iran, recognised globally for integrity, reliability and the strength of our partnerships."
+    },
+    "values": {
+      "eyelet": "Our Values",
+      "title": "Principles that govern every transaction",
+      "items": [
+        { "title": "Integrity", "text": "We do what we say. Honesty is the basis of every relationship and every deal." },
+        { "title": "Reliability", "text": "Timelines, quality and commitments are kept — consistently and without excuses." },
+        { "title": "Transparency", "text": "Clear terms and open communication remove risk and build lasting trust." },
+        { "title": "Excellence", "text": "We pursue precision in execution, from documentation to final delivery." },
+        { "title": "Partnership", "text": "Your success is our success. We invest in long-term relationships, not transactions." },
+        { "title": "Global Mindset", "text": "We think internationally and act locally, navigating markets with confidence." }
+      ]
+    },
+    "identity": {
+      "eyelet": "Corporate Identity",
+      "title": "A registered, accountable enterprise",
+      "body": "Operating with full corporate accountability, Arta Tejarat International Apadana is structured to meet the expectations of serious B2B partners and international counterparties.",
+      "items": [
+        { "label": "Full Legal Name", "value": "Arta Tejarat International Apadana" },
+        { "label": "Registration Number", "value": "659891" },
+        { "label": "Headquarters", "value": "Pasdaran, Golnabi St., No. 11, Tehran, Iran" },
+        { "label": "Core Activity", "value": "Import · Export · International Trade" }
+      ]
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Services — Import, Export & Trade Facilitation | Arta Tejarat",
+      "description": "Explore Arta Tejarat's services: import, export, international commercial consulting, product sourcing and trade facilitation, including food products and petrochemical trade.",
+      "keywords": "import services Iran, export services, trade facilitation, product sourcing, international commercial consulting, petrochemical trade"
+    },
+    "hero": {
+      "eyelet": "Our Services",
+      "title": "Commercial capabilities, end to end",
+      "subtitle": "From the first inquiry to the final delivery, Arta Tejarat provides the full spectrum of international trade services — managed with precision and accountability."
+    },
+    "list": [
+      {
+        "title": "Import Services",
+        "text": "We manage the complete import process — sourcing, supplier vetting, negotiation, logistics, customs documentation and delivery — bringing the right goods to you efficiently and compliantly.",
+        "points": ["Supplier identification & vetting", "Price & terms negotiation", "Logistics & customs coordination", "Quality and documentation control"]
+      },
+      {
+        "title": "Export Services",
+        "text": "We open international markets for your products, connecting you with qualified buyers and handling the operational complexity of cross-border sales from origin to destination.",
+        "points": ["Market & buyer matching", "Export documentation", "Shipping & freight management", "Compliance with trade regulations"]
+      },
+      {
+        "title": "International Commercial Consulting",
+        "text": "Strategic guidance for businesses entering or expanding in international markets — covering trade structure, partner selection, risk and route-to-market planning.",
+        "points": ["Market entry strategy", "Partner due diligence", "Trade structuring & risk review", "Pricing & terms advisory"]
+      },
+      {
+        "title": "Product Sourcing",
+        "text": "We locate, evaluate and secure the right products and suppliers to your specification — leveraging an established global network to deliver quality at the right price.",
+        "points": ["Specification-led sourcing", "Supplier evaluation & sampling", "Cost optimisation", "Reliable supply continuity"]
+      },
+      {
+        "title": "Trade Facilitation",
+        "text": "End-to-end coordination that removes friction from international transactions — documentation, payment structures, logistics and compliance, all handled under one accountable team.",
+        "points": ["Documentation & paperwork", "Payment & terms coordination", "Logistics orchestration", "Regulatory compliance"]
+      }
+    ],
+    "sectors": {
+      "eyelet": "Sector Focus",
+      "title": "Specialised across key trade categories",
+      "items": [
+        { "title": "Food Products", "text": "Sourcing and trade of quality food products with careful attention to standards, handling and supply reliability." },
+        { "title": "Commercial Goods", "text": "A broad range of commercial and consumer goods, matched to market demand and partner requirements." },
+        { "title": "Petrochemical Trade", "text": "Selected petrochemical trading handled with the diligence and compliance the sector demands." }
+      ]
+    },
+    "cta": {
+      "title": "Have a specific requirement in mind?",
+      "subtitle": "Tell us what you need to move, source or sell. We will design the most efficient path for it.",
+      "button": "Request a Consultation"
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact Arta Tejarat — International Trading Company, Tehran",
+      "description": "Get in touch with Arta Tejarat International Apadana. Contact us via WhatsApp, Instagram or our enquiry form. Headquartered in Pasdaran, Tehran, Iran.",
+      "keywords": "contact Arta Tejarat, international trade Iran contact, import export company Tehran"
+    },
+    "hero": {
+      "eyelet": "Contact",
+      "title": "Let’s start a conversation",
+      "subtitle": "Reach our team directly, or send a detailed inquiry. We respond promptly and treat every request with discretion."
+    },
+    "cards": {
+      "address": { "label": "Headquarters", "value": "Pasdaran, Golnabi Street, No. 11, Tehran, Iran" },
+      "whatsapp": { "label": "WhatsApp", "value": "+98 900 132 7283", "action": "Message us" },
+      "instagram": { "label": "Instagram", "value": "@artaintl", "action": "Follow us" },
+      "hours": { "label": "Business Hours", "value": "Saturday – Wednesday, 9:00 – 17:00 (IRST)" }
+    },
+    "form": {
+      "title": "Send us an inquiry",
+      "subtitle": "Share a few details and our team will get back to you.",
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "company": "Company",
+      "companyPlaceholder": "Company name",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your import, export or sourcing requirement...",
+      "submit": "Send Inquiry",
+      "sending": "Sending...",
+      "success": "Thank you. Your inquiry has been prepared — our team will be in touch.",
+      "error": "Please complete the required fields.",
+      "required": "Required"
+    },
+    "mapLabel": "Our Location"
+  },
+  "footer": {
+    "about": "Arta Tejarat International Apadana is a Tehran-based international trading house specialising in import, export, sourcing and trade facilitation for B2B partners worldwide.",
+    "quickLinks": "Company",
+    "services": "Services",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "regNo": "Registration No. 659891",
+    "builtFor": "International trade, delivered with confidence."
+  }
+}

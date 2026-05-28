@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================================
+   PERSIAN FONT — ESTEDAD
+   Place the font files in:  /public/fonts/estedad/
+   Expected files:
+     - Estedad-Regular.woff2
+     - Estedad-Medium.woff2
+     - Estedad-Bold.woff2
+   The site will automatically use Estedad for all Persian (RTL) content
+   once these files are added. Until then, a graceful sans-serif fallback
+   is used and the build remains unaffected.
+   ========================================================================= */
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/estedad/Estedad-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/estedad/Estedad-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Estedad";
+  src: url("/fonts/estedad/Estedad-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* English type system (loaded via <link> in the root layout). */
+  --font-sans: "Plus Jakarta Sans", "Estedad", system-ui, -apple-system, sans-serif;
+  --font-display: "Fraunces", "Estedad", Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-white text-navy-900 antialiased;
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv01";
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Force Estedad for all Persian content. */
+  html[lang="fa"] body {
+    font-family: "Estedad", var(--font-sans), sans-serif;
+  }
+
+  /* Display headings: refined serif for English; bold Estedad for Persian. */
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  html[lang="fa"] .font-display {
+    font-family: "Estedad", var(--font-display);
+    font-weight: 800;
+    letter-spacing: 0;
+  }
+
+  /* Slightly looser line-height & spacing for Persian readability. */
+  html[lang="fa"] {
+    --fa-leading: 1.9;
+  }
+  html[lang="fa"] p {
+    line-height: 1.95;
+  }
+
+  ::selection {
+    background: rgba(20, 162, 180, 0.22);
+    color: #0a1733;
+  }
+
+  /* Respect reduced motion preferences. */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-container px-5 sm:px-8 lg:px-10;
+  }
+  .container-wide {
+    @apply mx-auto w-full max-w-wide px-5 sm:px-8 lg:px-10;
+  }
+  .eyelet {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-turquoise-600;
+  }
+  html[lang="fa"] .eyelet {
+    @apply tracking-normal text-sm;
+  }
+  .link-underline {
+    @apply relative inline-flex items-center gap-1.5 font-medium text-navy-700 transition-colors hover:text-turquoise-600;
+  }
+}
+
+/* Custom scrollbar — subtle, premium. */
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f2ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a2c54;
+  border: 3px solid #f5f2ea;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0f8298;
+}
