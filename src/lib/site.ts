@@ -17,10 +17,10 @@ export const SITE = {
   instagram: "artaintl",
   instagramUrl: "https://instagram.com/artaintl",
   address: {
-    street: "Pasdaran, Golnabi Street, No. 36",
+    street: "No. 36 ,Golnabi St., Pasdaran, Tehran, Iran",
     city: "Tehran",
     country: "Iran",
-    full: "Pasdaran, Golnabi Street, No. 36, Tehran, Iran",
+    full: "No. 36 ,Golnabi St., Pasdaran, Tehran, Iran",
   },
 } as const;
 

@@ -139,7 +139,7 @@
       "items": [
         { "label": "Full Legal Name", "value": "Arta Tejarat International Apadana" },
         { "label": "Registration Number", "value": "659891" },
-        { "label": "Headquarters", "value": "Pasdaran, Golnabi St., No. 11, Tehran, Iran" },
+        { "label": "Headquarters", "value": "No. 36 ,Golnabi St., Pasdaran, Tehran, Iran" },
         { "label": "Core Activity", "value": "Import · Export · International Trade" }
       ]
     }
@@ -209,7 +209,7 @@
       "subtitle": "Reach our team directly, or send a detailed inquiry. We respond promptly and treat every request with discretion."
     },
     "cards": {
-      "address": { "label": "Headquarters", "value": "Pasdaran, Golnabi Street, No. 11, Tehran, Iran" },
+      "address": { "label": "Headquarters", "value": "No. 36 ,Golnabi St., Pasdaran, Tehran, Iran" },
       "whatsapp": { "label": "WhatsApp", "value": "+98 900 132 7283", "action": "Message us" },
       "instagram": { "label": "Instagram", "value": "@artaintl", "action": "Follow us" },
       "hours": { "label": "Business Hours", "value": "Saturday – Wednesday, 9:00 – 17:00 (IRST)" }
