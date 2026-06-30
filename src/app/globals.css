@@ -3,42 +3,51 @@
 @tailwind utilities;
 
 /* =========================================================================
-   PERSIAN FONT — ESTEDAD
-   Place the font files in:  /public/fonts/estedad/
-   Expected files:
-     - Estedad-Regular.woff2
-     - Estedad-Medium.woff2
-     - Estedad-Bold.woff2
-   The site will automatically use Estedad for all Persian (RTL) content
-   once these files are added. Until then, a graceful sans-serif fallback
-   is used and the build remains unaffected.
+   PERSIAN FONT — IRANYekanX (Pro, FaNum)
+   Font files live in:  /public/fonts/IRANYekanX(Pro)/
+   The site uses IRANYekanX for all Persian (RTL) content. The FaNum
+   variants render Persian numerals natively.
    ========================================================================= */
 @font-face {
-  font-family: "Estedad";
-  src: url("/fonts/estedad/Estedad-Regular.woff2") format("woff2");
+  font-family: "IRANYekanX";
+  src: url("/fonts/IRANYekanX(Pro)/IRANYekanXFaNum-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Estedad";
-  src: url("/fonts/estedad/Estedad-Medium.woff2") format("woff2");
+  font-family: "IRANYekanX";
+  src: url("/fonts/IRANYekanX(Pro)/IRANYekanXFaNum-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Estedad";
-  src: url("/fonts/estedad/Estedad-Bold.woff2") format("woff2");
+  font-family: "IRANYekanX";
+  src: url("/fonts/IRANYekanX(Pro)/IRANYekanXFaNum-DemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IRANYekanX";
+  src: url("/fonts/IRANYekanX(Pro)/IRANYekanXFaNum-Bold.woff2") format("woff2");
   font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IRANYekanX";
+  src: url("/fonts/IRANYekanX(Pro)/IRANYekanXFaNum-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
   /* English type system (loaded via <link> in the root layout). */
-  --font-sans: "Plus Jakarta Sans", "Estedad", system-ui, -apple-system, sans-serif;
-  --font-display: "Fraunces", "Estedad", Georgia, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", "IRANYekanX", system-ui, -apple-system, sans-serif;
+  --font-display: "Fraunces", "IRANYekanX", Georgia, "Times New Roman", serif;
 }
 
 @layer base {
@@ -54,18 +63,18 @@
     text-rendering: optimizeLegibility;
   }
 
-  /* Force Estedad for all Persian content. */
+  /* Force IRANYekanX for all Persian content. */
   html[lang="fa"] body {
-    font-family: "Estedad", var(--font-sans), sans-serif;
+    font-family: "IRANYekanX", var(--font-sans), sans-serif;
   }
 
-  /* Display headings: refined serif for English; bold Estedad for Persian. */
+  /* Display headings: refined serif for English; bold IRANYekanX for Persian. */
   .font-display {
     font-family: var(--font-display);
     letter-spacing: -0.01em;
   }
   html[lang="fa"] .font-display {
-    font-family: "Estedad", var(--font-display);
+    font-family: "IRANYekanX", var(--font-display);
     font-weight: 800;
     letter-spacing: 0;
   }

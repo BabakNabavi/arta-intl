@@ -42,12 +42,12 @@ const config: Config = {
         },
       },
       fontFamily: {
-        // English: Plus Jakarta Sans (UI/body). Persian: Estedad (see globals.css).
-        sans: ["var(--font-sans)", "Estedad", "system-ui", "sans-serif"],
+        // English: Plus Jakarta Sans (UI/body). Persian: IRANYekanX (see globals.css).
+        sans: ["var(--font-sans)", "IRANYekanX", "system-ui", "sans-serif"],
         // Premium serif display for large English headings.
-        display: ["var(--font-display)", "Estedad", "Georgia", "serif"],
+        display: ["var(--font-display)", "IRANYekanX", "Georgia", "serif"],
         // Persian explicit utility.
-        fa: ["Estedad", "var(--font-sans)", "sans-serif"],
+        fa: ["IRANYekanX", "var(--font-sans)", "sans-serif"],
       },
       maxWidth: {
         container: "1200px",
