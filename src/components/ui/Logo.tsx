@@ -56,18 +56,18 @@ export function Logo({ locale, variant = "dark", className = "" }: LogoProps) {
       {/* --- Wordmark (text placeholder until logo asset is added) --- */}
       <span className="flex flex-col leading-none">
         <span
-          className={`font-display text-[1.05rem] font-bold tracking-[0.12em] ${
-            isLight ? "text-white" : "text-navy-900"
-          }`}
+          className={`font-display text-[1.05rem] font-bold ${
+            locale === "fa" ? "tracking-normal" : "tracking-[0.12em]"
+          } ${isLight ? "text-white" : "text-navy-900"}`}
         >
-          ARTA&nbsp;TEJARAT
+          {locale === "fa" ? "آرتا تجارت" : <>ARTA&nbsp;TEJARAT</>}
         </span>
         <span
-          className={`mt-1 text-[0.6rem] font-medium uppercase tracking-[0.28em] ${
-            isLight ? "text-turquoise-200/80" : "text-turquoise-600/90"
-          }`}
+          className={`mt-1 text-[0.6rem] font-medium ${
+            locale === "fa" ? "tracking-normal" : "uppercase tracking-[0.28em]"
+          } ${isLight ? "text-turquoise-200/80" : "text-turquoise-600/90"}`}
         >
-          International
+          {locale === "fa" ? "بین‌الملل آپادانا" : "INTERNATIONAL APADANA"}
         </span>
       </span>
 
